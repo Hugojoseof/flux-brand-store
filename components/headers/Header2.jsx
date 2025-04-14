@@ -38,6 +38,8 @@ export default function Header2({
               </svg>
             </a>
           </div>
+
+{/* //logo */}
           <div className="col-xl-3 col-md-4 col-6">
             <Link href={`/`} className="logo-header">
               <Image
@@ -49,21 +51,17 @@ export default function Header2({
               />
             </Link>
           </div>
+
+{/* Menu Principal */}
           <div className="col-xl-6 tf-md-hidden">
             <nav className="box-navigation text-center">
               <ul className="box-nav-ul d-flex align-items-center justify-content-center gap-30">
                 <Nav isArrow={isArrow} Linkfs={Linkfs} />
-                <li className={`menu-item`}>
-                  <a
-                    href="https://themeforest.net/item/ecomus-ultimate-html5-template/53417990?s_rank=3"
-                    className={`item-link  ${Linkfs}`}
-                  >
-                    Buy now
-                  </a>
-                </li>
               </ul>
             </nav>
           </div>
+
+
           <div className="col-xl-3 col-md-4 col-3">
             <ul className="nav-icon d-flex justify-content-end align-items-center gap-20">
               <li className="nav-search">

@@ -11,14 +11,14 @@ export default function Topbar1() {
           <ul className="tf-top-bar_item tf-social-icon d-flex gap-10">
             <li>
               <a
-                href="https://www.instagram.com/fluxbrand.br/"
+                href="https://www.instagram.com/fluxbrand.br/" target="_blank" rel="noopener noreferrer"
                 className="box-icon w_28 round social-instagram bg_line"
               >
                 <i className="icon fs-12 icon-instagram" />
               </a>
             </li>
             <li>
-              <a href="https://www.tiktok.com/@fluxbrand.br" className="box-icon w_28 round social-tiktok bg_line">
+              <a href="https://www.tiktok.com/@fluxbrand.br" target="_blank" rel="noopener noreferrer" className="box-icon w_28 round social-tiktok bg_line">
                 <i className="icon fs-12 icon-tiktok" />
               </a>
             </li>
