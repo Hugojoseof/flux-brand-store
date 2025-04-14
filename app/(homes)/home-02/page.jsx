@@ -10,7 +10,7 @@ import Products from "@/components/homes/home-2/Products";
 import Store from "@/components/homes/home-2/Store";
 import React from "react";
 
-export const metadata = {
+export const metadata = { 
   title: "Flux Brand | Moda Universitária",
   description: "A loja oficial para estudantes estilosos. Representa teu curso com atitude.",
 };
